@@ -367,7 +367,7 @@ func extractInterfaceSection(content string) string {
 		trimmed := strings.TrimSpace(line)
 		if trimmed == "[Interface]" {
 			inside = true
-		} else if inside && strings.HasPrefix(trimmed, "[") {
+		} else if inside && (strings.HasPrefix(trimmed, "[") || strings.HasPrefix(trimmed, "# BEGIN_PEER")) {
 			break
 		}
 		if inside {
