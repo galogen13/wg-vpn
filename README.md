@@ -1,4 +1,4 @@
-# wgvpn
+# wg-vpn
 
 Telegram-бот для управления WireGuard VPN на Ubuntu-сервере.
 
