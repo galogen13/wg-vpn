@@ -1,0 +1,11 @@
+[Unit]
+Description=WireGuard VPN Telegram Bot
+After=network.target
+
+[Service]
+ExecStart=/usr/local/bin/wgvpn -config /etc/wgvpn/config.json
+Restart=on-failure
+RestartSec=5
+
+[Install]
+WantedBy=multi-user.target

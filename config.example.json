@@ -1,0 +1,13 @@
+{
+  "telegram_token": "1234567890:AAxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
+  "admin_ids": [123456789],
+  "wg_config_path": "/etc/wireguard/wg0.conf",
+  "wg_interface": "wg0",
+  "server_endpoint": "1.2.3.4:51820",
+  "server_public_key": "BASE64_SERVER_PUBLIC_KEY_HERE",
+  "subnet": "10.8.0.0/24",
+  "server_ip": "10.8.0.1",
+  "dns": "8.8.8.8",
+  "client_allowed_ips": "0.0.0.0/0, ::/0",
+  "users_file": "/etc/wgvpn/users.json"
+}
